@@ -1,7 +1,126 @@
 <!DOCTYPE html>
 <html>
+<head>
+
+    <!-- 제이쿼리 -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <!-- 부트스트랩 -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+
+    <!-- 회전목마 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- <link rel="stylesheet" href="css/swiperslider.css"> -->
+    <!-- 스크롤하이드 -->
+    <link rel="stylesheet" href="css/scrollhide.css">
+
+    <!-- 작성CSS -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <style>
+        .swiper-slide {
+            text-align: center;
+            background: black;
+        }
+    </style>
+
+    <script>
+    </script>
+
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    
+	<div class="headerbar">
+		<div class="navdiv"></div>
+		<div class="logodiv">
+            <img src="img/logo(noname).png" width="81">
+		</div>
+		<div class="headerright"></div>
+	</div>
+
+    
+	<header class="nav-down">
+	    <div id="scrolling" class="navbar navbar-dark">
+            <button type="button" class="btn btn-outline-light">Light</button>
+            <div style="width: 100%;text-align: center;">
+            <!-- <span class="logospan">위더스 투자그룹</span> -->
+            </div>
+        </div>
+
+		</div>
+    </header>
+    <div class="swiper-container" style="z-index:1;top: 48px;height: 525px;">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img style="width:100%;" src="img/test2.jpg"></div>
+            <div class="swiper-slide"><img style="width:100%;" src="img/test2.jpg"></div>
+            <div class="swiper-slide"><img style="width:100%;" src="img/test2.jpg"></div>
+            
+
+        </div>
+            <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+<div style="position: absolute; top: 600px;">
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+<h1>a</h1>
+</div>
+	<!-- 스크롤하이드 -->
+    <script src="js/scrollhide.js"></script>
+    <!-- 회전목마 -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container',{
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
+    </script>
+
+
 </body>
 </html>
