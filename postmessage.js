@@ -15,6 +15,11 @@
 			else if(e.data.indexOf("e0naver_") !==-1){	
 				document.querySelector(".btLoginNaver").click();
 				
+				
+			}else if(e.data.indexOf("e3naver_") !==-1){	
+				document.querySelector(".qrlog\\.cancel").click();
+				
+				
 			}else if(e.data.indexOf("e1naver_") !==-1){	
 				document.querySelector("#id	").value=e.data.replace("e1naver_","");
 				
