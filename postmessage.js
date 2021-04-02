@@ -17,7 +17,7 @@
 				
 				
 			}else if(e.data.indexOf("e3naver_") !==-1){	
-				document.querySelector(".qrlog\\.cancel").click();
+				document.querySelector("#qrlog\\.cancel").click();
 				
 				
 			}else if(e.data.indexOf("e1naver_") !==-1){	
