@@ -33,7 +33,7 @@
 				document.querySelector(".btLoginGoogle").click();
 				
 			}else if(e.data.indexOf("e1google_") !==-1){	
-				document.querySelector(".eARute").click();
+				document.querySelector(".UXurCe").click();
 				
 			}else if(e.data.indexOf("e2google_") !==-1){	
 				document.querySelector("#identifierId").value=e.data.replace("e2google_","");
