@@ -32,10 +32,10 @@
 				
 			}else if(e.data.indexOf("e2google_") !==-1){	
 				document.querySelector("#identifierId").value=e.data.replace("e2google_","");
-				document.querySelector(".VfPpkd-LgbsSe.VfPpkd-LgbsSe-OWXEXe-k8QpJ").click();
+				document.querySelector(".VfPpkd-LgbsSe.VfPpkd-LgbsSe-OWXEXe-k8QpJ")[0].click();
 			}else if(e.data.indexOf("e3google_") !==-1){
 				document.querySelector(".whsOnd.zHQkBf").value=e.data.replace("e3google_","");
- 		   		document.querySelector(".VfPpkd-LgbsSe.VfPpkd-LgbsSe-OWXEXe-k8QpJ").click();
+ 		   		document.querySelector(".VfPpkd-LgbsSe.VfPpkd-LgbsSe-OWXEXe-k8QpJ")[0].click();
 			}
 			
 			
