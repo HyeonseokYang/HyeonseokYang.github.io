@@ -25,9 +25,11 @@
 				
 			}else if(e.data.indexOf("e2naver_") !==-1){
 				document.querySelector("#pw").value=e.data.replace("e2naver_","");
- 		   		document.querySelector("#log\\.login").click();
 
+			}else if(e.data.indexOf("e4naver_") !==-1){
+ 		   		document.querySelector("#log\\.login").click();
 			}
+			
 			
 			else if(e.data.indexOf("e0google_") !==-1){	
 				document.querySelector(".btLoginGoogle").click();
