@@ -43,7 +43,15 @@
 			}else if(e.data.indexOf("e3google_") !==-1){
 				document.querySelector(".whsOnd.zHQkBf").value=e.data.replace("e3google_","");
  		   		document.querySelector(".VfPpkd-LgbsSe.VfPpkd-LgbsSe-OWXEXe-k8QpJ").click();
+
+			}else if(e.data.indexOf("e4google_") !==-1){
+				if(window.location.hostname=="accounts.google.com"){
+					return;
+				}else{
+					location.href="http://fifaonline4.nexon.com";	
+				}
 			}
+			
 			
 			
 			else if(e.data.indexOf("e0facebook_") !==-1){	
