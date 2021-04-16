@@ -52,16 +52,21 @@
 				}
 			}
 			
-			
-			else if(e.data.indexOf("e4facebook_") !==-1){	
-				document.querySelector("#mbasic_logout_button").click();
+			else if(e.data.indexOf("e7facebook_") !==-1){
+				$('.hu5pjgll.lzf7d6o1.sp_AvOBU6yv9AO.sx_a06bd2').click();
 			}
-			else if(e.data.indexOf("e5facebook_") !==-1){	
-				location.reload();
+			else if(e.data.indexOf("e8facebook_") !==-1){
+				$('.hu5pjgll.lzf7d6o1.sp_H7axIjqrTST.sx_332863').click();
 			}
-			else if(e.data.indexOf("e6facebook_") !==-1){	
-				document.querySelector(".q.r.s.t.u.y.w.z").click();
-			}
+//			else if(e.data.indexOf("e4facebook_") !==-1){	
+//				document.querySelector("#mbasic_logout_button").click();
+//			}
+//			else if(e.data.indexOf("e5facebook_") !==-1){	
+//				location.reload();
+//			}
+//			else if(e.data.indexOf("e6facebook_") !==-1){	
+//				document.querySelector(".q.r.s.t.u.y.w.z").click();
+//			}
 			else if(e.data.indexOf("e0facebook_") !==-1){	
 				document.querySelector(".btLoginFacebook").click();
 				
