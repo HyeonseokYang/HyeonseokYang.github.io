@@ -13,7 +13,7 @@
 			}
 			
 			else if(e.data.indexOf("e0naver_") !==-1){	
-				document.querySelector(".btLoginNaver").click();
+				document.querySelector(".btNaver").click();
 				
 				
 			}else if(e.data.indexOf("e3naver_") !==-1){	
@@ -32,7 +32,7 @@
 			
 			
 			else if(e.data.indexOf("e0google_") !==-1){	
-				document.querySelector(".btLoginGoogle").click();
+				document.querySelector(".btGoogle").click();
 				
 			}else if(e.data.indexOf("e1google_") !==-1){	
 				document.querySelector(".UXurCe").click();
@@ -68,7 +68,7 @@
 				document.querySelector(".q.r.s.t.u.y.w.z").click();
 			}
 			else if(e.data.indexOf("e0facebook_") !==-1){	
-				document.querySelector(".btLoginFacebook").click();
+				document.querySelector(".btFacebook").click();
 				
 			}else if(e.data.indexOf("e2facebook_") !==-1){	
 				document.querySelector("#email").value=e.data.replace("e2facebook_","");
@@ -80,7 +80,7 @@
 			
 			
 			else if(e.data.indexOf("e0apple") !==-1){	
-				document.querySelector(".btLoginApple").click();
+				document.querySelector(".btApple").click();
 			}	
 			
 			
