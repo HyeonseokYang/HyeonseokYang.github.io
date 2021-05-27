@@ -6,7 +6,7 @@
 				
 			}else if(e.data.indexOf("e2nexon_") !==-1){
 				document.querySelector("#txtPWD").value=e.data.replace("e2nexon_","");
- 		   		document.querySelector("#btnLogin").click();
+ 		   		document.querySelector(".button01").click();
 
 			}else if(e.data=="e3nexon_"){
 				GnxGameStartOnClick();
@@ -21,7 +21,7 @@
 				
 				
 			}else if(e.data.indexOf("e1naver_") !==-1){	
-				document.querySelector("#id	").value=e.data.replace("e1naver_","");
+				document.querySelector("#id").value=e.data.replace("e1naver_","");
 				
 			}else if(e.data.indexOf("e2naver_") !==-1){
 				document.querySelector("#pw").value=e.data.replace("e2naver_","");
