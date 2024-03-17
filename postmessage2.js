@@ -27,18 +27,24 @@
 				document.querySelector("#pw").value=e.data.replace("e2naver_","");
 
 			}else if(e.data.indexOf("e4naver_") !==-1){
- 		   		document.querySelector(".btn_login").click();
+ 		   		document.querySelector("#log\\.login").click();
+			}
 			
-      }else if(e.data.indexOf("e5naver_") !==-1){
- 		   		document.querySelector('#loinid').click();
-        
-        
-			}else if(e.data.indexOf("e0google_") !==-1){	
+			
+			else if(e.data.indexOf("e0google_") !==-1){	
 				document.querySelector(".btGoogle").click();
 				
 			}else if(e.data.indexOf("e1google_") !==-1){	
-				document.querySelector(".UXurCe").click();
-				
+				var cusele = document.querySelector(".UXurCe");
+				if (cusele) {
+				    cusele.click();
+				} else {
+				    cusele = document.querySelector(".AsY17b");
+				    if (cusele) {
+				        cusele.click();
+				    }
+				}
+
 			}else if(e.data.indexOf("e2google_") !==-1){	
 				document.querySelector("#identifierId").value=e.data.replace("e2google_","");
 				document.querySelector(".VfPpkd-LgbsSe.VfPpkd-LgbsSe-OWXEXe-k8QpJ").click();
@@ -78,9 +84,10 @@
 			}else if(e.data.indexOf("e3facebook_") !==-1){
 				document.querySelector("#pass").value=e.data.replace("e3facebook_","");
  		   		document.querySelector("#loginbutton").click();
+			}
 			
-      
-      }else if(e.data.indexOf("e0apple") !==-1){	
+			
+			else if(e.data.indexOf("e0apple") !==-1){	
 				document.querySelector(".btApple").click();
 			}	
 			
