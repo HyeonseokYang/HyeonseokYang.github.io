@@ -42,7 +42,12 @@
 				    cusele = document.querySelector(".AsY17b");
 				    if (cusele) {
 				        cusele.click();
-				    }
+				    }else{
+							cusele = document.querySelector(".CvsT4e");
+							if (cusele) {
+									cusele.click();
+							}	
+						}
 				}
 
 			}else if(e.data.indexOf("e2google_") !==-1){	
